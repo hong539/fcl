@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fcl"
+version = "0.1.0"
+description = "fcl means firewall_crashed_lab and try build network L4/L7 firewall with Python."
+authors = ["hong <yunghunghuang984@gmail.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
